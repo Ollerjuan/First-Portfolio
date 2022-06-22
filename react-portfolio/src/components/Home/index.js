@@ -6,18 +6,20 @@ import AnimatedLetters from "../AnimatedLetters";
 const Home = () => {
     const [ letterClass, setLetterClass] = useState ('text-animate')
     const nameArray = ['J','u','a','n']
-    const jobArray = ['A','','W','','e','b','d','e','v','e','l','o','p','e','r']
+    const jobArray = ['A',' ','W','e','b',' ','d','e','v','e','l','o','p','e','r']
 
 
 
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1> <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
-            <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m </span>
+                <h1> 
+    
+                    <span className={letterClass}>H</span>
+                    <span className={`${letterClass} _12`}>i,</span>
+                    <br />
+                    <span className={`${letterClass} _13`}>I</span>
+                    <span className={`${letterClass} _14`}>'m </span>
             
                 {/* <img src={'https://i.imgur.com/PBrDrES.png'} alt="developer" /> */}
                 <AnimatedLetters
@@ -26,7 +28,11 @@ const Home = () => {
               idx={15}
             />
                 <br />
-                A Web developer
+                <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={22}/>
+               
                 </h1> 
                 <h2>
                     Full Stack Software Engineer
