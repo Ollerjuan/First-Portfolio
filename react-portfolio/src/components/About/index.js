@@ -3,13 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-    faCss3,
-    faHtml5,
-    faJsSquare,
-    faReact,
-    faGithub,
-    faNodeJs,
-  } from '@fortawesome/free-brands-svg-icons'
+    faCss3, faHtml5, faJsSquare, faReact, faGithub,faNodeJs} from '@fortawesome/free-brands-svg-icons'
 
 <i class="fa-brands fa-github"></i> 
 
@@ -18,6 +12,7 @@ const About = () => {
 
    
     return (
+
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
@@ -28,13 +23,16 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role 
+          Currently reside in Austin TX and looking to work at a company where I can grow <br/>
+           both personally and professionally. I gradated college with a bachelor’s in biology <br/>
+           but decide to follow my dream job as a Software Engineer
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually 
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be 
+          I graduated from General Assembly in a Software Engineer program where I spent <br/>
+          over 500 hours studying and learning various languages and skill within 12 weeks. <br/>
+           With a passion of continuously learning. I am eager to learn as much as I can within  <br/>
+           the next couple of years 
+             
           </p>
             </div>
             <div className="stage-cube-cont">
@@ -59,7 +57,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
         </div>
     )
 }

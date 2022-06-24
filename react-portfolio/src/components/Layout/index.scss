@@ -1,4 +1,5 @@
 .page {
+  background-color: #5f5f5f;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -38,6 +39,8 @@
     animation-delay: 1s;
 }
 
+.container.about-page,
+.contact-page{
   .text-zone{
     position: absolute;
     left: 10%;
@@ -52,7 +55,7 @@
       font-size: 53px;
       font-family: 'Coolvetica';
       color: #ffd700;
-      font-weight: 400;
+      font-weight: bold;
       position: relative;
       margin-bottom: 40px;
       left: 10px;
@@ -68,17 +71,19 @@
         line-height: 18px;
       }
       &:after{
-        content: '<h1/';
+        content: '<JavaScript>';
         font-family: 'La Belle Aurore', cursive;
         font-size: 18px;
         position: absolute;
+        opacity: 0.6;
         margin-top: -35px;
-        left: -20px;
+        margin-right: 20px;
+        // left: -20px;
         line-height: 20px;
       }
     }
     p{
-      font-family: 23px;
+      font-size: 15px;
       color: white;
       font-family: sans-serif;
       font-weight: 300;
@@ -100,5 +105,6 @@
         }
       }
     }
+  }
     
 }
