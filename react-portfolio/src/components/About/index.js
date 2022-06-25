@@ -30,7 +30,7 @@ const About = () => {
           <p align="LEFT">
           I graduated from General Assembly in a Software Engineer program where I spent <br/>
           over 500 hours studying and learning various languages and skill within 12 weeks. <br/>
-           With a passion of continuously learning. I am eager to learn as much as I can within  <br/>
+           With a passion of continuously learning, I am eager to learn as much as I can within  <br/>
            the next couple of years 
              
           </p>
