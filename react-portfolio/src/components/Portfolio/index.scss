@@ -1,16 +1,19 @@
-// .portfolioScreen {
-//         max-width: 1300px;
-//         margin: 1rem auto;
-//         display: flex;
-// }
-// .images{
-//     display: block;
-// .proj1{
-//     max-width: 350px;
-// }
-// .proj2{
-//     max-width: 250px;
-//     max-height: 550px;
-// }
-// }
+.portfolio-page {
+    padding-left: 100px;
+    padding-right: 50px;
+    width: calc(100% - 150px);
+    position: initial;
+    height: 100%;
+    overflow: auto;
+}
+.images{
+    display: block;
+.proj1{
+    max-width: 350px;
+}
+.proj2{
+    max-width: 250px;
+    max-height: 850px;
+}
+}
 

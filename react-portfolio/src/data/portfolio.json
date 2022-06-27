@@ -1,0 +1,24 @@
+{
+    "portfolio": [
+        {
+            "cover": "https://user-images.githubusercontent.com/101987493/163098063-9ad6152b-05d1-4a3c-be37-bf20284390e3.png",
+            "title": "2048",
+            "url": "https://github.com/Ollerjuan/2048-1st-project-popular-mobile-game-"
+        },
+        {
+            "cover": "https://user-images.githubusercontent.com/89223981/166325217-5de6f18a-927c-43bf-8ab0-54a1adf498c4.png",
+            "title": "IG 2.0",
+            "url": "https://github.com/Ollerjuan/Social-Media-Juan-Kevin"
+        },
+        {
+            "cover": "https://user-images.githubusercontent.com/101987493/169544965-58d9e170-3c37-4aff-a08e-b39c8f48a7af.png",
+            "title": "Spoitfy API",
+            "url": "https://github.com/Ollerjuan/musicApp-Spotify-API"
+        },
+        {
+            "cover": "https://user-images.githubusercontent.com/101987493/175080129-2663cd7d-4b8a-47a9-8fbc-e8c3a9cfa981.png",
+            "title": "Ecommerce",
+            "url": "https://github.com/Ollerjuan/Ecommerce-shoe-store"
+        }
+    ]
+}
