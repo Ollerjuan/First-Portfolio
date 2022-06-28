@@ -66,6 +66,34 @@
     .flat-button:hover {
         background-color: #ffd700;
         color:black;
+    }
+ 
+    .download-link{
+        color: yellow;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ffd700;
+        margin-top: 25px;
+        margin-left: 15px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        opacity: .7;
 
+        a { color:#ffd700;
+            text-decoration:none;
+            }
+        
+    }
+    .download-link:hover{
+        background-color: #ffd700;
+        color:black;
+
+        a { color: black;
+            text-decoration:none;
+            }
     }
 }

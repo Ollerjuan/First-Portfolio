@@ -9,13 +9,6 @@ const Home = () => {
     const nameArray = [' ','J','u','a','n']
     const jobArray = ['A',' ','W','e','b',' ','d','e','v','e','l','o','p','e','r',]
 
-// useEffect(() => {
-//     return setTimeout(() => {
-//         setLetterClass('text-animate-hover')
-//     }, 4000)
-// }, [])
-
-
     return (
         <div className="container home-page">
             <div className="text-zone">
@@ -26,7 +19,6 @@ const Home = () => {
                     <br />
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
-                {/* <img src={'https://i.imgur.com/PBrDrES.png'} alt="developer" /> */}
                 <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -44,6 +36,9 @@ const Home = () => {
                     Full Stack Software Engineer
                 </h2>
                 <Link to='/contact' className="flat-button"> CONTACT ME</Link>
+                <div className="download-link">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1oMySp0zVcY4K49f7Hhrvvz0srkCTsEGN/view?ts=62bb72e7">Resume</a>
+                </div>
             </div>
             <Logo />
         </div>
